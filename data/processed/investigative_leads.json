@@ -1,0 +1,4706 @@
+[
+  {
+    "wallet_id": "1182Whs8pwEtgTT3NPcthE1hDm",
+    "risk_score": 43.47059561433844,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 42,
+        "unique_ips": 42,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 74.6097561,
+        "graph_degree": 42
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "11EiYyv6Wth4QcpyTuQsn4ugJa",
+    "risk_score": 34.5034096645829,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 29,
+        "unique_ips": 29,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 119.46428571,
+        "graph_degree": 29
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "11iBZwXwYxB5qYMGNJ4ZFciRSu",
+    "risk_score": 24.52677686463476,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 160.66666667,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "12AwfksV395GriQQRd3fAkVQQV",
+    "risk_score": 22.503795028981003,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 8955.16666667,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "12CWeznzDyW6HMminsBno868nV",
+    "risk_score": 35.14673371132948,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 29,
+        "unique_ips": 28,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 102.78571429,
+        "graph_degree": 29
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "13D2oeGYR5sbiLYbvtV23N4Nso",
+    "risk_score": 25.218732382194094,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 844.71428571,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "13FzwaTmzQWp6e7Z9huS5ed4Uj",
+    "risk_score": 24.04407029312501,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 424.57142857,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "13jPxMxXWxbJcV9mbCefWhphyd",
+    "risk_score": 31.53774015548838,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 1,
+        "unique_ips": 1,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 0.0,
+        "graph_degree": 1
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "13wXFDuWPLusxFF2jDSNJx5rJP",
+    "risk_score": 22.966755124647573,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 11600.5,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "14Aqmj76jPtbTqeFc4vRuaTbkx",
+    "risk_score": 24.790844616027933,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 143.88888889,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "14QvK5ixw6gfZRWecspz3VtdiD",
+    "risk_score": 21.1262439330751,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 7503.33333333,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "14ZkQy48RQWg3QQCicn5cnrE9N",
+    "risk_score": 23.85345398454226,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 1315.0,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "14r6idFbpow3CTyvC3vSsYCpxK",
+    "risk_score": 23.35145339068757,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 9,
+        "unique_ips": 9,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 7245.0,
+        "graph_degree": 9
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "14rNPyuUTx8xrFpiwf1hrhR4La",
+    "risk_score": 30.70470178419746,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 21,
+        "unique_ips": 21,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 106.5,
+        "graph_degree": 21
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "14xjE8GhUM1BsJe8SsG13esmXm",
+    "risk_score": 21.531970752309544,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 2,
+        "unique_ips": 2,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 1499.0,
+        "graph_degree": 2
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "15NfrgfSrM2hJsVYFPcRUCkejR",
+    "risk_score": 29.470731315401462,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 18,
+        "unique_ips": 18,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 311.29411765,
+        "graph_degree": 18
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "15i2AoyYjU969itTxWzsmfUgCW",
+    "risk_score": 31.98670300778391,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 24,
+        "unique_ips": 24,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 147.52173913,
+        "graph_degree": 24
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "15jNgMjw8ozLZLjTMSmKc9DTjR",
+    "risk_score": 21.834950967151435,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 15305.0,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "15yXc42rSaq67HgA6iyRLFGpKV",
+    "risk_score": 21.25892094002475,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 2,
+        "unique_ips": 2,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 127.0,
+        "graph_degree": 2
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "176MjKLVfnUBmVPV3oxPgUJhs4",
+    "risk_score": 22.133285765839588,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 9144.8,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "177jUPUTWxo4kii74SoNtx7GDD",
+    "risk_score": 23.008455783769115,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 13057.5,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "17DoeYNP9jiG7Kg5zDMYVNgjLm",
+    "risk_score": 22.948543492321615,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 200.16666667,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "17Gyb9RWQjpmbTepoAyTi7vYgT",
+    "risk_score": 21.611122474383073,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 19301.66666667,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1814vrF9DuSQkhi6eeHu525Dzi",
+    "risk_score": 26.71716585853863,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 14,
+        "unique_ips": 14,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 408.0,
+        "graph_degree": 14
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "18JAqTBmQcBVGe397swhgRrB2y",
+    "risk_score": 24.554984476294155,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 1220.0,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "18a7gQxqbZFWrhjEJ4D8sAkwXY",
+    "risk_score": 24.74389292570203,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 720.16666667,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "18hWgVJmgYDM2A4b2C7KJ9nVo1",
+    "risk_score": 21.900283340891725,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 663.33333333,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "19C2qggJfdgFfFFk2P6mrX9Zwf",
+    "risk_score": 41.346438183812346,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 39,
+        "unique_ips": 38,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 74.5,
+        "graph_degree": 39
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "19Hz3YnVcKbmYDdCbPMoWJxvfx",
+    "risk_score": 30.985858463579905,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 1,
+        "unique_ips": 1,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 0.0,
+        "graph_degree": 1
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1A1T2FbPhvmy1N1qjRwpoL7EaG",
+    "risk_score": 26.53153614721036,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 14,
+        "unique_ips": 13,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 361.46153846,
+        "graph_degree": 14
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1A9HQyeGFHtL6dSdEo5oMsXCYu",
+    "risk_score": 32.33800270057711,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 25,
+        "unique_ips": 24,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 137.95833333,
+        "graph_degree": 25
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1ARnshApRMQ761LVQqJ796CUVc",
+    "risk_score": 26.657343881990528,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 14,
+        "unique_ips": 14,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 366.69230769,
+        "graph_degree": 14
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1AtpAXt1CTY9zwhaboMsYLHcwd",
+    "risk_score": 23.392244117090247,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 383.4,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1BCvmrgtzBoV3TQkoGVgKqpsVF",
+    "risk_score": 22.501980576559813,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 9925.83333333,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1BDF3Tq1JTFpjDqE5CVxgYmMxW",
+    "risk_score": 36.09988209039737,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 32,
+        "unique_ips": 32,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 111.51612903,
+        "graph_degree": 32
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1BSkZzynrLm8hKQgFF9XAWpfQT",
+    "risk_score": 29.53786271342455,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 19,
+        "unique_ips": 18,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 215.5,
+        "graph_degree": 19
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1D1gqH1WYwYbt1fyYGEejXWTV6",
+    "risk_score": 40.58298713420036,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 38,
+        "unique_ips": 38,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 95.7027027,
+        "graph_degree": 38
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1DA23GXgwr5WTyhdDnmRYSGAim",
+    "risk_score": 21.597159747463934,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 18012.66666667,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1DTmcoobHjKLG74SdcvYA4Q1U6",
+    "risk_score": 24.039780608059896,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 244.16666667,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1DfZpy9x5JrswTNsZJu1KoLvee",
+    "risk_score": 23.037356797946583,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 10416.57142857,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1DrHvaDPnTKB3cYEmXNG11j68v",
+    "risk_score": 21.215720437598737,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 463.5,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1EkyMLdskLUnP6e1gZSw9wK4Qz",
+    "risk_score": 37.70127288915572,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 34,
+        "unique_ips": 32,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 83.75757576,
+        "graph_degree": 34
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1Er9qHKM81YpUC9RbnFZcvjtP5",
+    "risk_score": 23.100772473595054,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 7111.71428571,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1Fv1q2LWkobUbRuFGWPAJDyoq8",
+    "risk_score": 26.03637997847598,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 13,
+        "unique_ips": 12,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 421.33333333,
+        "graph_degree": 13
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1GA74KRxgTGxzBuMdoMDqBYZWY",
+    "risk_score": 22.548225173250827,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 12785.2,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1GLjeQXcaPUpcNPmWJLHF8oDM8",
+    "risk_score": 29.03590745340205,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 16,
+        "unique_ips": 16,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 5221.53333333,
+        "graph_degree": 16
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1Gkqfxs6aVanQ5d84vczZDdbAB",
+    "risk_score": 27.386227555808667,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 15,
+        "unique_ips": 15,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 231.21428571,
+        "graph_degree": 15
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1GqNrWkWzex2X8H5RhsFkmFtMT",
+    "risk_score": 21.93379099328186,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 345.66666667,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1GsFnpiUJvQ9koNyXWVPrLYc7C",
+    "risk_score": 23.591094211785904,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 9,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 129.875,
+        "graph_degree": 9
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1Gx5Vtxwc74ibv16qwGBTYXExS",
+    "risk_score": 23.526134962789133,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 9,
+        "unique_ips": 9,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 8271.75,
+        "graph_degree": 9
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1H1p8fCepAjVQtCHsmGYCtax3N",
+    "risk_score": 36.20011969650251,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 32,
+        "unique_ips": 32,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 111.51612903,
+        "graph_degree": 32
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1HNJyfmyJc1aD6GoTYcqGmXinY",
+    "risk_score": 22.422444291259378,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 11091.5,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1JR9TDiytaGhtbs2RsnPXbsYPd",
+    "risk_score": 28.751840754228922,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 18,
+        "unique_ips": 16,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 212.88235294,
+        "graph_degree": 18
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1JfiSJyVrxQpeaVTBCw29oGjHp",
+    "risk_score": 21.129200559286616,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 2,
+        "unique_ips": 2,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 605.0,
+        "graph_degree": 2
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1JqsBKkHAv4msKEqb3PuV7gxkp",
+    "risk_score": 22.4967795628377,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 332.2,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1JrUmzjrrMHBr5Jr4RRN4HuHCV",
+    "risk_score": 24.68007893791876,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 975.8,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1Jxi9mx9GAnMvGqvkSYAdhJhTR",
+    "risk_score": 26.5268818731476,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 14,
+        "unique_ips": 14,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 362.23076923,
+        "graph_degree": 14
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1K2MH75NByRBo5cz6NfgzXn2Ui",
+    "risk_score": 24.418246391896194,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 414.85714286,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1LkinrWXFFAxzgHQSCmjNsxyMW",
+    "risk_score": 32.24095020735909,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 24,
+        "unique_ips": 23,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 118.65217391,
+        "graph_degree": 24
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1MSgpdfbaiyns3a7VWuy3yGabS",
+    "risk_score": 35.709571398069095,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 32,
+        "unique_ips": 32,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 114.03225806,
+        "graph_degree": 32
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1Mq51Wgd75bEZH9Py5yGQKBVvb",
+    "risk_score": 22.982177654768176,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 7137.71428571,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1NFNrB5Zh8aZDzrPPouiuAG7AH",
+    "risk_score": 22.607731882777447,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 15561.4,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1NcqbRWMxDmGdRFwrT3MpXntRR",
+    "risk_score": 23.21332370601421,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 12626.5,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1NgtyqW37p4bCBs2YZ85zGoVee",
+    "risk_score": 25.852451918933806,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 9,
+        "unique_ips": 9,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 823.625,
+        "graph_degree": 9
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1NrAszf1JwA9bHtC8jx291PssG",
+    "risk_score": 24.46453953772824,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 11,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 5618.7,
+        "graph_degree": 11
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1NtXaWAfzZ9MgMBSgpvLeNZvZb",
+    "risk_score": 22.600604355821606,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 11558.8,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1PJDN93md4J98wWWTBqNFyKfBs",
+    "risk_score": 24.63873285249786,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 2374.0,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1QF3jEasQRXWy33iM7nahvJvpH",
+    "risk_score": 21.84792485756985,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 443.0,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1QRACw3ctnpiTFMGToMJu5dQ8Z",
+    "risk_score": 26.262648070716924,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 13,
+        "unique_ips": 13,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 232.75,
+        "graph_degree": 13
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1QYfVCxXecPPBvzHpvm6K2R4Bw",
+    "risk_score": 22.52810985479058,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 223.33333333,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1QkpkHeRuhQ7kFX2gycMgFi5hu",
+    "risk_score": 22.694168079581537,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 22008.0,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1RiYdfX3CJSAgfkmS3SyyNmG4p",
+    "risk_score": 21.585163979727163,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 279.5,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1RjJjwjQx72KxyiRFRZn7zMYxf",
+    "risk_score": 35.42944826819581,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 31,
+        "unique_ips": 30,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 87.66666667,
+        "graph_degree": 31
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1RrVGp3DWpr7ajEXRkLMBho3pc",
+    "risk_score": 25.732369595856692,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 243.71428571,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1S5f7kufruRMYij46Eu9yezqht",
+    "risk_score": 34.500354106313914,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 29,
+        "unique_ips": 29,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 121.89285714,
+        "graph_degree": 29
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1S5yWxKrwLM6cW1QDKdsLpgGWQ",
+    "risk_score": 27.827145753536175,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 17,
+        "unique_ips": 17,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 255.375,
+        "graph_degree": 17
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1SCnfzehvmmVgPLNuDnqjtb6qq",
+    "risk_score": 33.41545719686758,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 26,
+        "unique_ips": 25,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 122.36,
+        "graph_degree": 26
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1SZNjBbfVPzMcMwQTqhUuoMfGd",
+    "risk_score": 40.263997165216516,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 38,
+        "unique_ips": 38,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 74.48648649,
+        "graph_degree": 38
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1ScMwJaWx1smgeasT8TAAdeeq7",
+    "risk_score": 22.162332049805944,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 197.4,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1SyLruKWBUKg4mazAWviV6oZ8C",
+    "risk_score": 34.79910408083753,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 27,
+        "unique_ips": 27,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 127.07692308,
+        "graph_degree": 27
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1TLXs5QHGohYfgDW79L1SNvgRt",
+    "risk_score": 27.710054306816794,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 15,
+        "unique_ips": 15,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 289.14285714,
+        "graph_degree": 15
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1TLstYQWms3N6vqA4JrS5bXCDz",
+    "risk_score": 23.48476903158654,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 281.8,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1TeLszoxmh2fXHisredFo4eXBa",
+    "risk_score": 23.475821212830983,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 9,
+        "unique_ips": 9,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 8646.625,
+        "graph_degree": 9
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1U7ppQt9c4eccNj8TPxjqUxo4K",
+    "risk_score": 21.658587948290215,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 14769.0,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1UdSnhTK8S2MBtgWvmQ6Uw7GUe",
+    "risk_score": 21.936614370377473,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 13423.0,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1UsefiMWVVkEZXszspBj6KZjhg",
+    "risk_score": 25.519448320053385,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 12,
+        "unique_ips": 12,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 6784.90909091,
+        "graph_degree": 12
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1UshYiMCncmygsPFjeuCRLomK9",
+    "risk_score": 29.67970076096625,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 20,
+        "unique_ips": 19,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 243.94736842,
+        "graph_degree": 20
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1VCk5CCpZ8R3UJcH9BewH1NWnA",
+    "risk_score": 26.00828663659674,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 13,
+        "unique_ips": 12,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 111.33333333,
+        "graph_degree": 13
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1VLQTHAL11auqw9PKXb1mYqXL1",
+    "risk_score": 22.972432745076894,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 207.5,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1VVS1o3Kf2a9yL1LFEwM2rumuJ",
+    "risk_score": 38.717322921100674,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 36,
+        "unique_ips": 36,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 94.62857143,
+        "graph_degree": 36
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1W4BdUuoSY2RkUCPECJJVyA3gg",
+    "risk_score": 28.593726125285556,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 18,
+        "unique_ips": 17,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 230.47058824,
+        "graph_degree": 18
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1WGEeP44KYfyvikXKb1w7U9yHo",
+    "risk_score": 21.934555493424856,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 9440.8,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1WNcrgfXnjQnV87qjF1NPvhtKc",
+    "risk_score": 22.339688428207808,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 254.4,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1WZZ6SQZ1jGwtgkBqZ9VBCddjx",
+    "risk_score": 22.456716670330533,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 320.25,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1WbiPLHQZyYW7toXqvMEQMT3dx",
+    "risk_score": 28.090783861233312,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 17,
+        "unique_ips": 17,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 304.375,
+        "graph_degree": 17
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1WwBKrPfd9Z7Suns7Mci5sLbWS",
+    "risk_score": 35.15243569929038,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 31,
+        "unique_ips": 29,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 100.06666667,
+        "graph_degree": 31
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1XFw7PwcQ8qJdFtUwcruggkic2",
+    "risk_score": 22.4822410369409,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 11416.5,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1XPX7VomVM5L3tn82wNi7ktBpG",
+    "risk_score": 30.164827213815542,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 20,
+        "unique_ips": 20,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 236.21052632,
+        "graph_degree": 20
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1Xhpjj5khbteLg4zNbr1XWZzXd",
+    "risk_score": 36.25215437831953,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 31,
+        "unique_ips": 31,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 117.83333333,
+        "graph_degree": 31
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1XoxaLrMArx7uak9Eo3WRnxa81",
+    "risk_score": 41.562288543746234,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 40,
+        "unique_ips": 40,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 87.92307692,
+        "graph_degree": 40
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1Y7AbrUEgi7VnH7355doHrV2zY",
+    "risk_score": 24.240318657373287,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 1346.33333333,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1YVM8Ypi27ST3cc1u6sfghLyZc",
+    "risk_score": 24.44330218171563,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 194.88888889,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1YwUisNdw7za3FEzxmydXJ35kJ",
+    "risk_score": 28.47346813952038,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 18,
+        "unique_ips": 16,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 271.64705882,
+        "graph_degree": 18
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1Ywmk7xF9LpVruMJoTfi6DVEuT",
+    "risk_score": 24.273175247638672,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 145.66666667,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1ZAvU6FuVyP2T4SZQGR6QF2M7v",
+    "risk_score": 22.46879280108327,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 16360.33333333,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1ZS9rwayd2CDyvDv4G3W4QnDJQ",
+    "risk_score": 22.40761379303105,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 369.25,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1ZYrpVy6RgKWhAxBhtNThgdSw5",
+    "risk_score": 21.172379759575797,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 2,
+        "unique_ips": 2,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 801.0,
+        "graph_degree": 2
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1ZdzatdkgA8qVCBEtD93U6kUDu",
+    "risk_score": 21.700817111585632,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 377.75,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1ZpacemdFVQSWrkemZAP2X7KT6",
+    "risk_score": 29.41294015658407,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 19,
+        "unique_ips": 18,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 287.0,
+        "graph_degree": 19
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1aHRFaSPuxPYsXyf1Zy9VBF5Zi",
+    "risk_score": 21.157250403930576,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 2,
+        "unique_ips": 2,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 237.0,
+        "graph_degree": 2
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1aqGz4twttfSjMk9o2iYKHTSRp",
+    "risk_score": 21.750175293712132,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 182.0,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1arjpL2dqLhzEMDDKJbMrVj8JA",
+    "risk_score": 33.73231579766895,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 28,
+        "unique_ips": 28,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 126.40740741,
+        "graph_degree": 28
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1augSe71ZjvvQciffKLk7X5NJh",
+    "risk_score": 21.6416161509891,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 424.5,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1axU1KtVRkMak37bhPwUgiwJNJ",
+    "risk_score": 29.975891428416052,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 19,
+        "unique_ips": 18,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 148.77777778,
+        "graph_degree": 19
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1bEEbaqHcXgoAmmj2Rezja3HB4",
+    "risk_score": 33.29045597735189,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 26,
+        "unique_ips": 26,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 100.84,
+        "graph_degree": 26
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1cFeF15nh4F5z3xN5ZGJjYEb9o",
+    "risk_score": 21.934829950266657,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 22244.66666667,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1cGw8W9tWjacfMqzVguozZUvcV",
+    "risk_score": 22.572750967162257,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 12264.83333333,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1cUSGBnpiRvRFH6UhGaqtgtmkJ",
+    "risk_score": 21.857243224707464,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 593.66666667,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1cUveXZrCmeCou97RjffyMZyRT",
+    "risk_score": 23.23936329007178,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 191.14285714,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1cffofKrm2wwjyLEafZDpSKi4s",
+    "risk_score": 26.04734764752863,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 12,
+        "unique_ips": 12,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 354.36363636,
+        "graph_degree": 12
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1dA4BHCaSfdh2yoojuK6EVfXxX",
+    "risk_score": 30.992595628481386,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 1,
+        "unique_ips": 1,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 0.0,
+        "graph_degree": 1
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1dg4gp7qEhEHj6BGCc5B1TVmfX",
+    "risk_score": 21.861879850612578,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 8639.6,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1doha6XomfsnKUfwMHadgP9gdY",
+    "risk_score": 34.473160623925324,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 29,
+        "unique_ips": 29,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 116.0,
+        "graph_degree": 29
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1eXvWJ1oUpxGGMUeFzeAdz1T33",
+    "risk_score": 23.98719699774544,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 1258.5,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1f4LjpjpC81n9m1BYPaasuoHBQ",
+    "risk_score": 25.509900261721434,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 341.88888889,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1f5kxGS8ydGef3g6TjedaMHEjn",
+    "risk_score": 22.557170994883144,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 11704.66666667,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1fWaHcx1ko8kybqJriN8KUBW1o",
+    "risk_score": 22.410101583442973,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 9263.0,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1fjzvEfh8n86wf9RjqzidtCz8m",
+    "risk_score": 26.387690995952433,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 663.71428571,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1fknx4Gp3SVFbEqxr49ZKFuodM",
+    "risk_score": 26.700403938640743,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 14,
+        "unique_ips": 14,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 243.07692308,
+        "graph_degree": 14
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1gDt9NnCtwxM42AenAr8waxQ5Q",
+    "risk_score": 30.391416926082996,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 20,
+        "unique_ips": 20,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 239.36842105,
+        "graph_degree": 20
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1gNqh44PiAmbs79YFMcsiqPtzV",
+    "risk_score": 23.046601084869163,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 417.75,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1gozfNvd3ux263irdHiErdTgh2",
+    "risk_score": 21.8467181568316,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 14711.75,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1hDgHkqorjkv9h7zhi3LsV3eQo",
+    "risk_score": 22.01877983651223,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 23691.33333333,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1hK6Xw8LsSXYzjH6ibRCQyRQCV",
+    "risk_score": 22.610289645334575,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 274.5,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1hbbgAJ6L6ZEtAbMSehqviki5L",
+    "risk_score": 32.053771839252164,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 22,
+        "unique_ips": 22,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 214.66666667,
+        "graph_degree": 22
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1hi6QbwN6vWqrKiDCc3RjDLmRz",
+    "risk_score": 24.30925306173555,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 815.5,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1iBVPoEhpATgkVxE6z79q8eoRP",
+    "risk_score": 27.03137393548636,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 14,
+        "unique_ips": 14,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 327.07692308,
+        "graph_degree": 14
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1iM87aj53v9Cx3D7YD73divRjY",
+    "risk_score": 21.522056052302666,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 148.5,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1iWAH9GpcbHpeUzeSQF9ZY6q4x",
+    "risk_score": 24.746269726518353,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 11,
+        "unique_ips": 11,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 6847.6,
+        "graph_degree": 11
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1jVohBEdovP4iHqu84BWSXLXpq",
+    "risk_score": 34.995477090492315,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 30,
+        "unique_ips": 30,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 115.34482759,
+        "graph_degree": 30
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1jXcBHaxfUEbqomDnLSjiQVzaV",
+    "risk_score": 23.628967744983598,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 25599.0,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1jaFTLJ4ceypChkUcY4PijRsaM",
+    "risk_score": 25.520370861252125,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 12,
+        "unique_ips": 12,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 347.0,
+        "graph_degree": 12
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1k7YnV5z6MfA59JghecnMRfaKW",
+    "risk_score": 26.115580491186936,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 13,
+        "unique_ips": 13,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 5459.08333333,
+        "graph_degree": 13
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1k8b1iog5qpe3mw5PZ7KskLf6K",
+    "risk_score": 23.433693807779783,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 161.85714286,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1kLunmf3EvwMA6nGPSZ4kLHuC2",
+    "risk_score": 25.765477674766867,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 11,
+        "unique_ips": 11,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 416.6,
+        "graph_degree": 11
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1kQbziP4SJD8wuW6jEihf24sNG",
+    "risk_score": 23.473277627096802,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 8576.28571429,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1koSVqfdZ6FUKsSA9N6Xdp4cSH",
+    "risk_score": 36.294671376772946,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 31,
+        "unique_ips": 30,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 110.36666667,
+        "graph_degree": 31
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1ktSoBvW9gb2Sedj26iU9xWC4H",
+    "risk_score": 22.6171929729215,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 13306.66666667,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1m8D2VMTATmETZrgXxwpo4n9aE",
+    "risk_score": 22.664468184664415,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 14492.8,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1mAEmkh1LTj7jaJgfm9Tvz7Zog",
+    "risk_score": 21.283263181203825,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 150.66666667,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1mAZRTf9dRUCYhbmiCcBYK9CMv",
+    "risk_score": 26.587758263724904,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 13,
+        "unique_ips": 13,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 385.08333333,
+        "graph_degree": 13
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1mNzSd1ZnrYXUSworts5bF1Rmu",
+    "risk_score": 33.06951497217595,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 1,
+        "unique_ips": 1,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 0.0,
+        "graph_degree": 1
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1mfpLosdH4hXeBd4jKtpg2KY69",
+    "risk_score": 39.04450160704572,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 36,
+        "unique_ips": 36,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 90.57142857,
+        "graph_degree": 36
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1nu8jFTtNo8XkXXEeBivT2G39d",
+    "risk_score": 73.89704133670341,
+    "risk_level": "HIGH",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 100,
+        "unique_ips": 94,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 26.42424242,
+        "graph_degree": 100
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1nxkarpdodFjxNaammg7UjoGXP",
+    "risk_score": 23.097772322252318,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 107.71428571,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1o2eZB8Qnis3RyhHrbg4f4j7iv",
+    "risk_score": 21.611618780000462,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 353.75,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1oFbRDDajGdhCcpcTp7rhdPkWm",
+    "risk_score": 38.49527680907326,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 33,
+        "unique_ips": 33,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 83.125,
+        "graph_degree": 33
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1oRakgxhkFTGdAULfNVb9Ei9eb",
+    "risk_score": 30.510095128754955,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 21,
+        "unique_ips": 19,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 169.95,
+        "graph_degree": 21
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1pCYaRc8HrHnVEgKmYD89w5VCz",
+    "risk_score": 22.44417045301703,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 10130.66666667,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1pJGF9p7kpzb6eU326EFZf2cDn",
+    "risk_score": 21.334740746921092,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 12635.0,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1pSstwbKhALkysxoiQ1cxcA831",
+    "risk_score": 21.517675401185503,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 686.5,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1pTa8p5XVrQZe7VZFg3osxjaLW",
+    "risk_score": 22.629365670476503,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 9415.83333333,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1peGG4jzaFhF47TNnX7kr91cBT",
+    "risk_score": 22.426815397486724,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 10705.33333333,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1pmPe2nmPddAdDvtyYbLCY364F",
+    "risk_score": 27.77328354787513,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 11,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 299.7,
+        "graph_degree": 11
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1puN5cCXMPEzdJCpkDYpDGpGxH",
+    "risk_score": 21.946887012900557,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 253.66666667,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1qtBmUNJAEqN76R7PwPfHt3oWb",
+    "risk_score": 23.36323917169219,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 9,
+        "unique_ips": 9,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 7714.25,
+        "graph_degree": 9
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1r786kjYg1qwb3wXQgMYzyzdxJ",
+    "risk_score": 21.98378169120658,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 454.66666667,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1r8MF7GpTxDRzF5XeY4yUAEgWC",
+    "risk_score": 25.35278275768196,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 1068.5,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1rSxZu1jxbWT4DaQgqYhVq4EJc",
+    "risk_score": 23.737618100798787,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 9,
+        "unique_ips": 9,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 9648.5,
+        "graph_degree": 9
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1s7o14RVoTByTYyRPbR7vXsxdi",
+    "risk_score": 27.33863398248049,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 16,
+        "unique_ips": 15,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 326.13333333,
+        "graph_degree": 16
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1sZgBRcR3rBNdxjxABxACrn4TL",
+    "risk_score": 34.33927203014062,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 29,
+        "unique_ips": 29,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 81.78571429,
+        "graph_degree": 29
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1sbyQaZJvBHuXtKpxNt8W5AqFx",
+    "risk_score": 21.438395788747922,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 7468.5,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1t99TfmypZLvmcxMnpchEDEgnK",
+    "risk_score": 21.523837600601176,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 314.0,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1tMTQ7AUieHHwbUdQgJkSqETcs",
+    "risk_score": 21.4815365914955,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 2,
+        "unique_ips": 2,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 313.0,
+        "graph_degree": 2
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1tUXb3ZPSxkrCW8maWMm11kERe",
+    "risk_score": 22.63627434739456,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 216.75,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1tgFhd7YANp5GPMBhy6unjhoyN",
+    "risk_score": 28.307628623162106,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 17,
+        "unique_ips": 17,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 269.875,
+        "graph_degree": 17
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1tkSLW5m4BVTXWENfAMxnMoxPS",
+    "risk_score": 23.036396336503387,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 10344.0,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1ttmu7VYG6cq1moTE9PKGi62Xj",
+    "risk_score": 23.090424052237807,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 1170.33333333,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1uHXvh7VpNHQQcctHP2T8PxkfD",
+    "risk_score": 22.160054317684207,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 225.33333333,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1uHbQW1rhZRoCy2gwQrgGMo5jb",
+    "risk_score": 21.616283733752944,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 877.5,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1uu78YftgF5tDUNtvpkSM8kdb9",
+    "risk_score": 23.28064286564955,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 2902.0,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1v8aALBBMnFPazKw6HDhcJ9hLg",
+    "risk_score": 21.816150381392674,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 10716.0,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1vXmv9qnXVg1z62HEvAcofaU8r",
+    "risk_score": 24.013168727020368,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 8680.77777778,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1vcePPuJFfDWSd1HCTZ7c5ZKN8",
+    "risk_score": 21.608877763173687,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 354.5,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1wB7TeXtdkVCgRrPg2xkyvoz9X",
+    "risk_score": 22.814491054496855,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 246.5,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1wYsNzkq437hsvW28wBVW1UDm9",
+    "risk_score": 26.763300730038043,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 13,
+        "unique_ips": 13,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 384.58333333,
+        "graph_degree": 13
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1xUm9X5FR6ot77MQyL9Rruqx9i",
+    "risk_score": 25.557005465411745,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 12,
+        "unique_ips": 12,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 346.90909091,
+        "graph_degree": 12
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1xW5kFHsshejtDU8bFiAJuA54B",
+    "risk_score": 23.030623542179686,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 7994.85714286,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1xYahMfRgSe8PPwWgCukntLge6",
+    "risk_score": 26.3461447003088,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 14,
+        "unique_ips": 14,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 334.07692308,
+        "graph_degree": 14
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1xr4xiNJ8tQUySpVzRNCYmYQta",
+    "risk_score": 22.14462365110253,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 17330.75,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1xwV7aW1oATxiA5XsHNgmSi6wN",
+    "risk_score": 24.664887225558356,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 11,
+        "unique_ips": 11,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 7547.2,
+        "graph_degree": 11
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1y9H8y7pcAJKfEnNEkhwHZYHzw",
+    "risk_score": 22.42405917047346,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 9456.0,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1yHCeH37fUPosMUfZ8RzdDH3nU",
+    "risk_score": 23.542368633108595,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 9,
+        "unique_ips": 9,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 9052.0,
+        "graph_degree": 9
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1yRJqvTHv6X2pb4PFi5ri3q2GD",
+    "risk_score": 25.366458319956763,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 12,
+        "unique_ips": 12,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 6944.27272727,
+        "graph_degree": 12
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1ybi4a3vw5uj4q1T9vhF5nA1EZ",
+    "risk_score": 29.21501085641014,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 19,
+        "unique_ips": 18,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 252.55555556,
+        "graph_degree": 19
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1yh5o5z2wZh2ueeSreE3cHbzbX",
+    "risk_score": 24.3357059849723,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 150.33333333,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1ysbZq86Xj9zfbu1zrkiUaTQx3",
+    "risk_score": 21.799084086126967,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 520.0,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1zZVt4W9ZTWd4cWktLo2SHu1pE",
+    "risk_score": 28.63545956518183,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 18,
+        "unique_ips": 18,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 284.23529412,
+        "graph_degree": 18
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "1ztrJ4tXaPreFB7GjGJbusp4qF",
+    "risk_score": 32.31578009847134,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 23,
+        "unique_ips": 22,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 214.59090909,
+        "graph_degree": 23
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "36QjziB4ShLomqFUi6n71EX59e",
+    "risk_score": 30.885451999790206,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 20,
+        "unique_ips": 20,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 269.73684211,
+        "graph_degree": 20
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "38xKx2GUmeShMnRSRUbEjCX9Dc",
+    "risk_score": 32.4596041792012,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 25,
+        "unique_ips": 25,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 117.0,
+        "graph_degree": 25
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3B5u3LKWoafaNUyk9NzYPqDBtS",
+    "risk_score": 21.325878032974806,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 244.33333333,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3CeUhuY6XPTNMj7wBNTmYKjSuq",
+    "risk_score": 22.485061069203994,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 10989.0,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3D3sfZamFgBk3QGi1B6JrSPjSS",
+    "risk_score": 22.028508539867847,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 485.66666667,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3GwFLwnAtW4cTTca9RGHENi6Vw",
+    "risk_score": 23.034674151067303,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 781.6,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3JsS6QSWdGmFLkuw6iwiq36SRR",
+    "risk_score": 28.32730050576449,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 16,
+        "unique_ips": 16,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 262.53333333,
+        "graph_degree": 16
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3KHowjfxAN6ejAPLimjS9fn6Lc",
+    "risk_score": 24.038679266339685,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 15253.25,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3KUmoscjnYADKE4epb4pM44eXZ",
+    "risk_score": 26.213987476169528,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 13,
+        "unique_ips": 13,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 6846.25,
+        "graph_degree": 13
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3LdPrnSp9wxj8pFVsmB7EZSsNt",
+    "risk_score": 21.966838874675663,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 902.5,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3MfmDXMCSMKpmhYdsGMRJusSQ8",
+    "risk_score": 28.61171969454364,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 17,
+        "unique_ips": 17,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 251.875,
+        "graph_degree": 17
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3NP1CxAdjS5Aph26paERTWNBQL",
+    "risk_score": 24.12930839504675,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 7337.22222222,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3PzVgJyo6QuNC8SSWJvRmwXtTi",
+    "risk_score": 22.758208375106733,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 193.0,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3R5NEumeUsUdsNbmGCjj5pndvY",
+    "risk_score": 35.12817378266496,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 31,
+        "unique_ips": 29,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 91.9,
+        "graph_degree": 31
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3SidDcgpaGG5JrUMkd68jTUQPD",
+    "risk_score": 34.41167649686991,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 29,
+        "unique_ips": 28,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 88.96428571,
+        "graph_degree": 29
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3TdzWAMxnCr6YNhCMh41VJEqrB",
+    "risk_score": 22.309606713466657,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 198.2,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3TsyNQHeKWw8X4xheeg5XyDZ8x",
+    "risk_score": 21.314674051671783,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 429.5,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3UXR13bDoQ1zMqvaD2k1hoGFmy",
+    "risk_score": 21.454470510356607,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 316.66666667,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3WYMe1xrwo6oWhjmPw5sbSEUuE",
+    "risk_score": 28.04522413757268,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 17,
+        "unique_ips": 17,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 277.75,
+        "graph_degree": 17
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3WibaYy9wZWJDt8NBoWiHnC1pN",
+    "risk_score": 23.398697968092893,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 27904.5,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3WqdqeVkydihgMxhMAV5XVhLsJ",
+    "risk_score": 22.586435110621455,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 1697.0,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3YsdcP5snMaFCa5sZBTbbS6PFy",
+    "risk_score": 22.09528397239192,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 293.2,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3ZbYV6f3yUpMfH26Fkvxde2qku",
+    "risk_score": 22.84492907680585,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 5082.0,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3bPkrxokitmHgXDGJcLFLrKnEm",
+    "risk_score": 21.82647589169053,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 15426.5,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3buq3qoVbEU7pviqGLx3VHPxu6",
+    "risk_score": 27.289520717179915,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 14,
+        "unique_ips": 14,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 290.23076923,
+        "graph_degree": 14
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3cK5RZVqcJugkg897SQsNcQqAD",
+    "risk_score": 22.391053890605846,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 11799.5,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3dokMcb2EdkNtysP5AJv2NRhbv",
+    "risk_score": 36.874318059592284,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 34,
+        "unique_ips": 32,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 106.27272727,
+        "graph_degree": 34
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3etpqvmd7U9HXrFw6KfybTHD1n",
+    "risk_score": 31.066236299067942,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 1,
+        "unique_ips": 1,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 0.0,
+        "graph_degree": 1
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3gAV3uFDkQAqow68p4GgAxvuK1",
+    "risk_score": 31.976404771991653,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 24,
+        "unique_ips": 24,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 149.08695652,
+        "graph_degree": 24
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3iTZ2xrrk1X9iCft1FHftLnniJ",
+    "risk_score": 26.719941084981482,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 12,
+        "unique_ips": 12,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 185.36363636,
+        "graph_degree": 12
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3jPZLwBvjycCK7X9pHotcqCkzN",
+    "risk_score": 24.632782871778772,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 146.55555556,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3jPn5cbKzLwBnnmhCsQZF8Ds9G",
+    "risk_score": 25.698912624769854,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 34467.5,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3n6ZiC3GnVVaagBQQKRTrNkf4s",
+    "risk_score": 26.286657130836215,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 11,
+        "unique_ips": 11,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 5665.8,
+        "graph_degree": 11
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3nEVtKvm5uwssTkY9hLGHjAnUs",
+    "risk_score": 28.2443488253483,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 17,
+        "unique_ips": 17,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 229.5625,
+        "graph_degree": 17
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3ndh5YWZQ4YwdBQBHr7zdko8Fp",
+    "risk_score": 28.522598876816364,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 16,
+        "unique_ips": 16,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 279.2,
+        "graph_degree": 16
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3nwMn3JT6YyGQVvLEaLC8Qs3rD",
+    "risk_score": 34.742923032061476,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 29,
+        "unique_ips": 28,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 118.21428571,
+        "graph_degree": 29
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3peQ36rLMQzRu5qUvc5KX98mxJ",
+    "risk_score": 33.051471049971354,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 26,
+        "unique_ips": 26,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 114.12,
+        "graph_degree": 26
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3r18kNNSodg2vCDNvNkXXt3i9X",
+    "risk_score": 35.88444735554135,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 32,
+        "unique_ips": 32,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 95.25806452,
+        "graph_degree": 32
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3r9xnSCsxQhWnh1xh5RzmNa3KU",
+    "risk_score": 24.441602808181727,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 1027.6,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3uUZM6Sj7C9XMG1HRGVqJNLeod",
+    "risk_score": 22.67873389350844,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 11799.5,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "3xX8u5SY5dhk4AAtdL6G8cqTff",
+    "risk_score": 23.032510133916162,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 8,
+        "unique_ips": 8,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 7419.57142857,
+        "graph_degree": 8
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1q2RxX3hRQHp2Ps5PGojh7repqN",
+    "risk_score": 23.754264451733363,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 9,
+        "unique_ips": 9,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 7768.125,
+        "graph_degree": 9
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1q3g5GhkKFp6U7qhnx7VBmLz23M",
+    "risk_score": 23.30781325603439,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 13833.0,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1q3x5DtqeojcEXExNL1EDp8pqXG",
+    "risk_score": 25.748760920856757,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 12,
+        "unique_ips": 12,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 368.0,
+        "graph_degree": 12
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1q4z5X3KTCr9rioiTQzRVxRR6kj",
+    "risk_score": 26.545077479491077,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 14,
+        "unique_ips": 14,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 281.84615385,
+        "graph_degree": 14
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1q6JVjUYfVTJEqZ8PU8KkkeYajL",
+    "risk_score": 21.96521458627418,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 10862.0,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1q7EbPcMJAntKdGB5LgzNbV492X",
+    "risk_score": 37.826192445279695,
+    "risk_level": "MEDIUM",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 33,
+        "unique_ips": 33,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 99.8125,
+        "graph_degree": 33
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1q7PrcyxTgpAGxBttCyT2CpNsTt",
+    "risk_score": 21.62969980493801,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 12962.75,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1q9UrAidBM5cbo8CMvyAo2qMyTT",
+    "risk_score": 32.94209791504024,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 25,
+        "unique_ips": 25,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 109.125,
+        "graph_degree": 25
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1q9gy65LSnoXaTrTud59Mi5VWka",
+    "risk_score": 22.27828159511158,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 8234.5,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qAqunuS5LBdGdvwRkzbNRqp9sm",
+    "risk_score": 30.579759207281505,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 20,
+        "unique_ips": 19,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 230.15789474,
+        "graph_degree": 20
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qCChjUS2pgyDVeUR1nEEJqnts5",
+    "risk_score": 27.61975254493159,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 16,
+        "unique_ips": 16,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 196.46666667,
+        "graph_degree": 16
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qEWmHrQBffpn8ruBL7e2LdkRSn",
+    "risk_score": 22.672287531122493,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 13453.5,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qGokerDaNkmCMc1k1v51T7a7kV",
+    "risk_score": 23.205338003409757,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 1933.0,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qHBpVcnUc185ymzAb3vQecAU93",
+    "risk_score": 22.528999006022396,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 12206.83333333,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qJK8dkbRzSuPrtAK3Kn6PViHpX",
+    "risk_score": 22.331123216519902,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 15479.4,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qKmj4RRTskMc41pHDgxrxxVvFh",
+    "risk_score": 22.684687786211025,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 298.0,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qMn8qPcXedjnTkpzvbKywUt1a7",
+    "risk_score": 23.78090050194285,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 9,
+        "unique_ips": 9,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 185.75,
+        "graph_degree": 9
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qPETziwZABCFgvHD8Cjtdw4wqc",
+    "risk_score": 22.689929221227374,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 198.33333333,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qPxnghUBg9sEuEt4dPbJfbBMnK",
+    "risk_score": 25.936786741266545,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 257.55555556,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qT7HgDD8wSEWusDnN7qT3hvke8",
+    "risk_score": 21.48264228029962,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 149.0,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qTb3sQmztbfh67rGjjPBig3dik",
+    "risk_score": 27.137517713679088,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 14,
+        "unique_ips": 14,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 327.23076923,
+        "graph_degree": 14
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qUmHWwLDRwX7GRdPdKmK2vjSJ1",
+    "risk_score": 25.698501289211322,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 12,
+        "unique_ips": 12,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 6440.09090909,
+        "graph_degree": 12
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qVWrKrRZaTBuDtf9xH4iXxQc7n",
+    "risk_score": 23.62906360892588,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 9,
+        "unique_ips": 9,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 10276.625,
+        "graph_degree": 9
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qW58vzYfb2hZdGnAKU1gPGdTCj",
+    "risk_score": 22.329400607186663,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 11239.0,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qWkxxbApeF53pAYi2Xg3Gmi91C",
+    "risk_score": 25.237060631206695,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 2068.5,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qWmXhCt95nrW3KD3sDy3MLZSub",
+    "risk_score": 23.24565687359925,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 15736.33333333,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qXcuqi18jPVGziggG3kyMRs8RH",
+    "risk_score": 22.62921510521943,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 203.33333333,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qXjY21bcT12aoJbK2ZumkUtC77",
+    "risk_score": 28.50429803777834,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 17,
+        "unique_ips": 17,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 141.75,
+        "graph_degree": 17
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qYhGJV5nKGJNMzb69AFRmAnE5T",
+    "risk_score": 27.231295284259055,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 15,
+        "unique_ips": 13,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 5600.07142857,
+        "graph_degree": 15
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qYwoGnZJTbdQ33dXnQ8eXm6Aoo",
+    "risk_score": 30.82240395761012,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 21,
+        "unique_ips": 21,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 130.2,
+        "graph_degree": 21
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qZiYTkYTnvVYB6d2sqFK3JFbKB",
+    "risk_score": 26.575344727617406,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 12,
+        "unique_ips": 12,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 333.72727273,
+        "graph_degree": 12
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qfDAQqBbra1fMY28QyvtLG4Gyd",
+    "risk_score": 24.133200562308687,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 8464.11111111,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qfK7vDKFQCL1nb9J34cKm9hxqY",
+    "risk_score": 21.945302456504173,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 18404.66666667,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qfsMxR1KTRr6ozczGdaBkRB9JL",
+    "risk_score": 25.638169232266904,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 12,
+        "unique_ips": 11,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 439.81818182,
+        "graph_degree": 12
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qft8sds3PbUjQ5ZiN1wTuY7UQh",
+    "risk_score": 22.26208769062163,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 16216.4,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qieyKTmtsrXm9EAhJaVTGCgm3f",
+    "risk_score": 25.18678535437111,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 3,
+        "unique_ips": 3,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 1252.0,
+        "graph_degree": 3
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qjZHBokNWfe5FRR972DaxZkTuA",
+    "risk_score": 21.632842886688817,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 2,
+        "unique_ips": 2,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 563.0,
+        "graph_degree": 2
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qka6ijUZQ2QLCENrYDF9A5Kws7",
+    "risk_score": 25.43761057611414,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 12,
+        "unique_ips": 12,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 5952.09090909,
+        "graph_degree": 12
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qksCBC6gxRgkGYeAFWhHWHj1zt",
+    "risk_score": 24.13031118399725,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 7216.77777778,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qm2wyqdRX1PLqRwzvTbppbtfzF",
+    "risk_score": 26.349828555853712,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 13,
+        "unique_ips": 13,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 3309.25,
+        "graph_degree": 13
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qn23GaLNYSpB2PkPPhLGZJt4hH",
+    "risk_score": 29.212378123869925,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 18,
+        "unique_ips": 18,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 185.47058824,
+        "graph_degree": 18
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qo7zHiFWKHW47uCx3wKQtkMUp8",
+    "risk_score": 22.055097719674695,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 197.2,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qoGBWRJhmcFkMvrr4Fu3tMSJ5E",
+    "risk_score": 24.95351571712272,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 11,
+        "unique_ips": 11,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 6856.8,
+        "graph_degree": 11
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qoTKADNFRdvGYcikNHquYoipYW",
+    "risk_score": 25.9867409421412,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 11,
+        "unique_ips": 11,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 430.6,
+        "graph_degree": 11
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qrUiu5pkA2WnN3654CsHc5duFH",
+    "risk_score": 22.541128540364724,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 204.66666667,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qtGnBLc1cT6Fv8W8ivAYnKZnJT",
+    "risk_score": 24.014231987702196,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 8672.77777778,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qtZVY3KziDMZ67Brbb1h5EjhrE",
+    "risk_score": 21.737598772094564,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 5,
+        "unique_ips": 5,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 204.25,
+        "graph_degree": 5
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qtbrXWUuoeJMwGv6JyVGqWdgjR",
+    "risk_score": 21.940291256234406,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 4,
+        "unique_ips": 4,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 18896.33333333,
+        "graph_degree": 4
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1quuE4CA4iP3Aw3jdvfLN647TCB",
+    "risk_score": 34.95433444165462,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 30,
+        "unique_ips": 30,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 103.06896552,
+        "graph_degree": 30
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qvpMMVJF5D9rre7A7BVWMT8bPr",
+    "risk_score": 27.05350340324187,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 15,
+        "unique_ips": 14,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 241.78571429,
+        "graph_degree": 15
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qxmEqpqFMPzJZkUJ45QPVYZav8",
+    "risk_score": 24.179096684979786,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 6,
+        "unique_ips": 6,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 1058.0,
+        "graph_degree": 6
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qy1QM9RxvdTQbkCqXr52e51HE3",
+    "risk_score": 31.67869845494148,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 22,
+        "unique_ips": 22,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 227.0,
+        "graph_degree": 22
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qyrcoxEUVyFTNuWSTo7MUMjHQA",
+    "risk_score": 24.190388319137806,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 10,
+        "unique_ips": 10,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 9659.44444444,
+        "graph_degree": 10
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  },
+  {
+    "wallet_id": "bc1qyxQdDn53jFrK6wFx7RJWhvQBQ",
+    "risk_score": 22.44759745580225,
+    "risk_level": "LOW",
+    "evidence": {
+      "observed_fact": {
+        "transaction_count": 7,
+        "unique_ips": 7,
+        "unique_counterparties": 0,
+        "average_time_between_transactions": 9869.33333333,
+        "graph_degree": 7
+      },
+      "inference": "The wallet shows a cluster of synthetic behavioral anomalies that may warrant investigation.",
+      "investigative_lead": "Compare this wallet to nearby IP and wallet activity to understand whether the pattern is a local anomaly or a broader grouping."
+    }
+  }
+]

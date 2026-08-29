@@ -1,0 +1,132 @@
+# Bitcoin Investigation Platform
+
+This project is an offline, Linux-only prototype for exploring synthetic Bitcoin investigation workflows. It is designed for early-stage local development and experimentation without connecting to real Bitcoin networks or real-world criminal datasets.
+
+## Synthetic Dataset Generator
+
+This repository includes a synthetic data generator for Bitcoin-like transaction and network observations. The data is generated locally and is intentionally not tied to any real blockchain records or seized data.
+
+### Why use synthetic data?
+
+The goal is to create a realistic, reproducible, offline dataset that can support later phases such as:
+
+- ingestion from CSV/JSON/XML
+- normalization and enrichment
+- IP/wallet/TX correlation
+- anomaly detection
+- clustering and evaluation
+- explainable investigative lead generation
+- dashboard and link-analysis prototyping
+
+Synthetic data allows the project to remain fully offline, deterministic, and safe for testing without relying on real Bitcoin network observations.
+
+### Important fields
+
+Each generated record contains fields such as:
+
+- `timestamp`: UTC timestamp for the network/transaction event
+- `src_ip` and `dst_ip`: synthetic IPv4 addresses in documentation/test ranges
+- `src_port` and `dst_port`: synthetic network ports, with Bitcoin P2P port 8333 used often for realism
+- `txid`: synthetic transaction identifier
+- `input_addresses` and `output_addresses`: wallet-like addresses
+- `input_amounts` and `output_amounts`: BTC-like transfer amounts
+- `fee`: transaction fee approximation
+- `script_type`: transaction script type
+- `geo_country`: synthetic country code
+- `asn`: synthetic autonomous system number
+- `behavior_type`: the synthetic generation profile used for evaluation only
+
+The `behavior_type` field is only a generation label. It is not intended to be used as a model feature unless explicitly requested later.
+
+### Behavioral profiles
+
+The generator creates multiple synthetic behavior groups:
+
+- `NORMAL`: baseline, low-volume and low-diversity activity
+- `EXCHANGE_LIKE`: high-activity exchange-like flows with more counterparties
+- `RAPID_TRANSFER`: quick movement between related wallets
+- `LAYERING_LIKE`: multi-hop synthetic chains for layering patterns
+- `MIXING_LIKE`: multiple-input, multiple-output transfers with balanced splits
+- `HIGH_NETWORK_DIVERSITY`: one wallet associated with many IPs/ASNs/countries
+
+These are synthetic behavioral patterns for experimentation only; they are not labels of real criminal activity.
+
+### Generate the dataset
+
+From the project root, run:
+
+```bash
+uv run python scripts/generate_dataset.py --records 1000
+```
+
+For a larger dataset:
+
+```bash
+uv run python scripts/generate_dataset.py --records 10000
+```
+
+### Output files
+
+The generated files are written to:
+
+- `data/synthetic/transactions.csv`
+- `data/synthetic/transactions.json`
+- `data/synthetic/transactions.xml`
+
+These three files represent the same synthetic dataset in different formats.
+
+### Data quality
+
+The generator validates the created records before writing them. It checks for:
+
+- required fields
+- unique transaction identifiers
+- valid timestamps
+- valid IPv4 addresses
+- valid port ranges
+- non-negative amounts and fees
+- consistent input/output totals
+- valid behavior labels
+
+### Synthetic data notice
+
+This project is intentionally designed for offline experimentation. The dataset is synthetic, clearly labeled as such, and does not represent real Bitcoin transactions or criminal activity.
+
+## Run complete analysis
+
+Generate a fresh synthetic dataset:
+
+```bash
+uv run python scripts/generate_dataset.py --records 10000
+```
+
+Run the complete offline analysis pipeline:
+
+```bash
+uv run python scripts/run_analysis.py --input data/synthetic/transactions.csv --output-dir data/processed
+```
+
+Run the full test suite:
+
+```bash
+uv run pytest -q
+```
+
+## Run the FastAPI service
+
+```bash
+uv run python -m uvicorn backend.api.main:app --host 127.0.0.1 --port 8000 --reload
+```
+
+## Project layout
+
+```text
+backend/
+data/
+docs/
+frontend/
+models/
+scripts/
+src/
+tests/
+```
