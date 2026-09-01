@@ -1,0 +1,17 @@
+.investigation-graph { background: #17212b; border: 1px solid #40505d; }
+.graph-toolbar { display: flex; justify-content: space-between; gap: 16px; padding: 12px; border-bottom: 1px solid #40505d; flex-wrap: wrap; }
+.graph-actions, .graph-filters { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.graph-actions button { padding: 6px 10px; border: 1px solid #71808c; background: #263541; color: #f4f1ea; cursor: pointer; border-radius: 3px; }
+.graph-actions button:hover { border-color: #f4d35e; color: #f4d35e; }
+.graph-filters label { display: inline-flex; align-items: center; gap: 4px; color: #c4ccd2; font-size: 12px; }
+.graph-canvas { min-height: 560px; background: radial-gradient(circle at center, #21303c 0, #17212b 72%); }
+.graph-legend { display: flex; gap: 16px; padding: 10px 12px; color: #c4ccd2; font-size: 12px; flex-wrap: wrap; }
+.graph-legend span { display: inline-flex; gap: 6px; align-items: center; }
+.graph-legend i { display: inline-block; width: 10px; height: 10px; background: #53606d; }
+.legend-wallet i { border-radius: 50%; background: #cf7d4b; }
+.legend-transaction i { background: #457b9d; }
+.legend-ip i { transform: rotate(45deg); background: #718355; }
+.legend-asn i { clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%); background: #8b5e83; }
+.legend-country i { clip-path: polygon(50% 0, 61% 35%, 100% 38%, 70% 60%, 80% 100%, 50% 75%, 20% 100%, 30% 60%, 0 38%, 39% 35%); background: #b38b3d; }
+.graph-state { padding: 48px 24px; text-align: center; color: #c4ccd2; border: 1px solid #40505d; background: #17212b; }
+@media (max-width: 700px) { .graph-canvas { min-height: 420px; } .graph-canvas > div { height: 420px !important; } }

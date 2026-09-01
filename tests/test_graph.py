@@ -1,5 +1,6 @@
 from backend.graph.graph_builder import build_transaction_graph
 from backend.graph.service import build_graph
+from backend.pipeline.orchestrator import AnalysisOrchestrator
 
 
 def test_build_transaction_graph_returns_records():
@@ -23,3 +24,27 @@ def test_build_transaction_graph_returns_records():
     graph = build_transaction_graph(records)
     assert len(graph) > 0
     assert build_graph(records) == graph
+
+
+def test_orchestrator_requires_real_persistence_before_graph_available(monkeypatch):
+    class FakeClient:
+        def __init__(self):
+            self.persisted = 0
+
+        def connect(self):
+            return None
+
+        def persist_graph(self, graph_records):
+            self.persisted = len(graph_records)
+            return len(graph_records)
+
+        def close(self):
+            return None
+
+    monkeypatch.setattr("backend.pipeline.orchestrator.Neo4jClient", FakeClient)
+
+    graph_records = [{"type": "Wallet", "id": "wallet_a", "relationship": "INPUT_FROM", "txid": "tx_1"}]
+    status, message = AnalysisOrchestrator()._graph_status(graph_records)
+
+    assert status is True
+    assert "persistence" in message.lower()

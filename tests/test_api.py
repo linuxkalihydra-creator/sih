@@ -25,23 +25,21 @@ def test_analyze_endpoint():
     assert "wallet_risk_scores" in response.json()
 
 
-def test_stats_endpoint():
+def test_stats_requires_an_uploaded_dataset():
     response = client.get("/stats")
-    assert response.status_code == 200
-    assert response.json()["total_transactions"] > 0
+    assert response.status_code == 422
 
 
-def test_alerts_endpoint():
+def test_alerts_requires_an_uploaded_dataset():
     response = client.get("/alerts")
-    assert response.status_code == 200
-    assert isinstance(response.json(), list)
+    assert response.status_code == 422
 
 
-def test_alerts_for_wallet():
+def test_alerts_for_wallet_requires_an_uploaded_dataset():
     response = client.get("/alerts/does-not-exist")
-    assert response.status_code == 404 or response.status_code == 200
+    assert response.status_code == 422
 
 
-def test_entity_evidence_endpoint():
+def test_entity_evidence_requires_an_uploaded_dataset():
     response = client.get("/entities/unknown-wallet/evidence")
-    assert response.status_code == 404 or response.status_code == 200
+    assert response.status_code == 422

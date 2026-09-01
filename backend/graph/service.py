@@ -13,11 +13,14 @@ def build_graph(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return build_transaction_graph(records)
 
 
-def ensure_graph_available() -> None:
-    """Raise a clear error if the environment is not prepared for Neo4j access."""
+def ensure_graph_available(records: list[dict[str, Any]] | None = None) -> int:
+    """Validate connectivity and a successful Neo4j write path."""
     client = Neo4jClient()
     try:
         client.connect()
+        if records is None:
+            return 1
+        return client.persist_graph(records)
     except Neo4jUnavailableError:
         raise
     finally:

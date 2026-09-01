@@ -35,11 +35,16 @@ class AnalysisOrchestrator:
         self.contamination = contamination
         self.random_state = random_state
 
-    def _graph_status(self) -> tuple[bool, str]:
+    def _graph_status(self, graph_records: list[dict[str, Any]] | None = None) -> tuple[bool, str]:
         client = Neo4jClient()
         try:
             client.connect()
-            return True, "Neo4j connection available"
+            if not graph_records:
+                return True, "Neo4j connectivity verified"
+            persisted = client.persist_graph(graph_records)
+            if persisted > 0:
+                return True, f"Neo4j persistence verified with {persisted} records"
+            return False, "Neo4j connected but persistence did not write any graph records"
         except Neo4jUnavailableError:
             return False, "Neo4j unavailable; continuing with local graph-only analysis"
         finally:
@@ -148,8 +153,8 @@ class AnalysisOrchestrator:
             investigative.append(wallet_entry)
         (output_dir / "investigative_leads.json").write_text(json.dumps(investigative, indent=2, default=str), encoding="utf-8")
 
-    def run(self, input_path: str | Path, output_dir: str | None = None, contamination: float | None = None, random_state: int | None = None) -> AnalysisResult:
-        """Execute the full offline analysis pipeline for a local synthetic dataset."""
+    def run(self, input_path: str | Path, output_dir: str | None = None, contamination: float | None = None, random_state: int | None = None, dataset_id: str = "legacy") -> AnalysisResult:
+        """Execute the full analysis pipeline for one uploaded dataset."""
         start = time.perf_counter()
         logger.info("[1/9] Loading dataset...")
         file_path = Path(input_path)
@@ -196,7 +201,19 @@ class AnalysisOrchestrator:
         for _, row in wallet_features.iterrows():
             evidence[str(row["wallet_id"])] = summarize_evidence(row.to_dict())
 
-        graph_available, graph_message = self._graph_status()
+        graph_available = False
+        graph_message = "Neo4j unavailable; continuing with local graph-only analysis"
+        client = Neo4jClient()
+        try:
+            client.connect()
+            persisted = client.persist_graph(graph_records, dataset_id=dataset_id)
+            graph_available = persisted > 0
+            graph_message = f"Neo4j persistence verified with {persisted} records" if graph_available else "Neo4j connected but persistence did not write any graph records"
+        except Neo4jUnavailableError:
+            graph_available = False
+            graph_message = "Neo4j unavailable; continuing with local graph-only analysis"
+        finally:
+            client.close()
         warnings = []
         if not graph_available:
             warnings.append(graph_message)

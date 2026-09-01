@@ -1,56 +1,145 @@
-"""FastAPI service for the offline synthetic investigation platform."""
+"""FastAPI service for uploaded Bitcoin investigation datasets."""
 
 from __future__ import annotations
 
-from pathlib import Path
 from typing import Any
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, File, HTTPException, Query, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from backend.graph.neo4j_client import Neo4jUnavailableError
+from backend.graph.neo4j_client import Neo4jClient, Neo4jUnavailableError
 from backend.ingestion.service import load_dataset
+from backend.ingestion.dataset_store import DatasetStore
 from backend.pipeline.orchestrator import AnalysisOrchestrator
 
 app = FastAPI(title="Bitcoin Investigation Platform")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-_DEFAULT_ANALYSIS_PATH = "data/synthetic/transactions.csv"
-
-
 class AnalyzeRequest(BaseModel):
-    path: str = _DEFAULT_ANALYSIS_PATH
+    path: str | None = None
     output_dir: str | None = None
     contamination: float = 0.05
     random_state: int = 42
+    dataset_id: str | None = None
 
 
 class IngestRequest(BaseModel):
     path: str
 
 
-def _analysis_cache() -> dict[str, Any]:
-    cache = app.state.__dict__.get("analysis_cache")
-    if cache is None:
-        cache = {}
-        app.state.analysis_cache = cache
-    return cache
+def _dataset_store() -> DatasetStore:
+    store = app.state.__dict__.get("dataset_store")
+    if store is None:
+        store = DatasetStore()
+        app.state.dataset_store = store
+    return store
+
+
+def _dataset_snapshot(dataset_id: str) -> dict[str, Any]:
+    if _dataset_store().get(dataset_id) is None:
+        raise HTTPException(status_code=404, detail=f"Dataset not found: {dataset_id}")
+    snapshot = _dataset_store().load_snapshot(dataset_id)
+    if snapshot is None:
+        raise HTTPException(status_code=409, detail="Dataset has not been analysed yet")
+    return snapshot
+
+
+def _alerts_from_snapshot(snapshot: dict[str, Any]) -> list[dict[str, Any]]:
+    cluster_ids = {str(row["wallet_id"]): row.get("cluster_id") for row in snapshot.get("cluster_results", [])}
+    risks = sorted(snapshot.get("wallet_risk_scores", []), key=lambda row: row.get("risk_score", 0), reverse=True)[:20]
+    explanation_rows = {str(row.get("wallet_id")): row for row in snapshot.get("explanations", [])}
+    alerts = []
+    for row in risks:
+        wallet_id = str(row["wallet_id"])
+        reasons = explanation_rows.get(wallet_id, {}).get("reasons", [])
+        alerts.append({
+            "wallet_id": wallet_id,
+            "risk_score": float(row["risk_score"]),
+            "risk_level": str(row["risk_level"]),
+            "cluster_id": cluster_ids.get(wallet_id),
+            "confidence": round(float(max(0.5, min(0.99, float(row["risk_score"]) / 100))), 3),
+            "top_reasons": [str(reason["label"]) for reason in reasons if reason.get("label")],
+        })
+    return alerts
+
+
+def _snapshot_wallet_row(snapshot: dict[str, Any], key: str, wallet_id: str) -> dict[str, Any] | None:
+    return next((row for row in snapshot.get(key, []) if str(row.get("wallet_id")) == wallet_id), None)
+
+
+def _snapshot_entity(snapshot: dict[str, Any], wallet_id: str) -> dict[str, Any]:
+    feature_row = _snapshot_wallet_row(snapshot, "wallet_features", wallet_id)
+    if feature_row is None:
+        raise HTTPException(status_code=404, detail=f"Wallet not found: {wallet_id}")
+
+    risk_row = _snapshot_wallet_row(snapshot, "wallet_risk_scores", wallet_id) or {}
+    cluster_row = _snapshot_wallet_row(snapshot, "cluster_results", wallet_id) or {}
+    anomaly_row = _snapshot_wallet_row(snapshot, "anomaly_results", wallet_id) or {}
+    related_ips = {
+        str(ip)
+        for record in snapshot.get("records", [])
+        if wallet_id in {str(item) for item in record.get("input_addresses", []) + record.get("output_addresses", [])}
+        for ip in (record.get("src_ip"), record.get("dst_ip"))
+        if ip
+    }
+    risk_score = float(risk_row.get("risk_score", 0.0))
+    cluster_id = cluster_row.get("cluster_id")
+    return {
+        "wallet_id": wallet_id,
+        "risk_score": risk_score,
+        "risk_level": str(risk_row.get("risk_level", "LOW")),
+        "confidence": round(float(max(0.5, min(0.99, risk_score / 100))), 3),
+        "cluster_id": cluster_id,
+        "transaction_statistics": {
+            "transaction_count": int(feature_row.get("transaction_count", 0)),
+            "incoming_transaction_count": int(feature_row.get("incoming_transaction_count", 0)),
+            "outgoing_transaction_count": int(feature_row.get("outgoing_transaction_count", 0)),
+        },
+        "network_statistics": {
+            "unique_ips": int(feature_row.get("unique_ips", 0)),
+            "unique_counterparties": int(feature_row.get("unique_counterparties", 0)),
+            "graph_degree": int(feature_row.get("graph_degree", 0)),
+        },
+        "ml_information": {
+            "anomaly_score": float(anomaly_row.get("anomaly_score", 0.0)),
+            "anomaly_label": int(anomaly_row.get("anomaly_label", 0)),
+        },
+        "cluster_information": {"cluster_id": cluster_id},
+        "explanations": [row for row in snapshot.get("explanations", []) if str(row.get("wallet_id")) == wallet_id],
+        "evidence": snapshot.get("evidence", {}).get(wallet_id, {}),
+        "related_entities": sorted(related_ips),
+    }
 
 
 @app.get("/health")
 def health() -> dict[str, Any]:
     """Return a health indicator for the offline platform."""
+    from backend.graph.neo4j_client import Neo4jClient, Neo4jUnavailableError
+
+    try:
+        client = Neo4jClient()
+        client.connect()
+        client._driver.verify_connectivity()
+        graph_available = True
+        message = "Neo4j connectivity verified"
+    except Neo4jUnavailableError:
+        graph_available = False
+        message = "Neo4j unavailable"
+    else:
+        client.close()
+
     return {
         "status": "ok",
-        "mode": "offline_synthetic",
-        "graph_available": False,
+        "mode": "uploaded_dataset",
+        "graph_available": graph_available,
+        "graph_status": message,
     }
 
 
@@ -67,25 +156,79 @@ def ingest(request: IngestRequest) -> dict[str, Any]:
     return {"records_loaded": len(records), "source": request.path}
 
 
+@app.post("/datasets")
+def register_dataset(request: IngestRequest) -> dict[str, Any]:
+    """Copy a local source into the persistent, offline dataset registry."""
+    try:
+        return _dataset_store().register_file(request.path)
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
+@app.post("/datasets/upload", status_code=201)
+async def upload_dataset(file: UploadFile = File(...)) -> dict[str, Any]:
+    """Accept a browser multipart upload and register it in the local store."""
+    try:
+        metadata = _dataset_store().register_upload(file.filename or "", await file.read())
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    return {key: metadata[key] for key in ("dataset_id", "filename", "format", "size_bytes", "status", "created_at")}
+
+
+@app.get("/datasets")
+def datasets() -> list[dict[str, Any]]:
+    return _dataset_store().list()
+
+
+@app.get("/datasets/{dataset_id}")
+def dataset(dataset_id: str) -> dict[str, Any]:
+    metadata = _dataset_store().get(dataset_id)
+    if metadata is None:
+        raise HTTPException(status_code=404, detail=f"Dataset not found: {dataset_id}")
+    return metadata
+
+
 @app.post("/analyze")
 def analyze(request: AnalyzeRequest) -> dict[str, Any]:
     """Run the real end-to-end analysis pipeline for a local dataset."""
     try:
+        store = _dataset_store()
+        metadata = store.get(request.dataset_id) if request.dataset_id else None
+        if request.dataset_id and metadata is None:
+            raise HTTPException(status_code=404, detail=f"Dataset not found: {request.dataset_id}")
+        if metadata is None:
+            if not request.path:
+                raise HTTPException(status_code=422, detail="dataset_id is required for analysis")
+            metadata = store.register_file(request.path)
+        dataset_id = metadata["dataset_id"]
+        store.update(dataset_id, status="analyzing", analysis_status="running", error_message=None)
         orchestrator = AnalysisOrchestrator(contamination=request.contamination, random_state=request.random_state)
-        result = orchestrator.run(request.path, output_dir=request.output_dir, contamination=request.contamination, random_state=request.random_state)
+        result = orchestrator.run(metadata["source_path"], output_dir=request.output_dir or str(store._directory(dataset_id) / "processed"), contamination=request.contamination, random_state=request.random_state, dataset_id=dataset_id)
     except FileNotFoundError as exc:
         raise HTTPException(status_code=404, detail=str(exc)) from exc
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     except Neo4jUnavailableError as exc:
         raise HTTPException(status_code=503, detail=str(exc)) from exc
+    except HTTPException:
+        raise
     except Exception as exc:  # pragma: no cover - broad guard for runtime failures
+        if request.dataset_id:
+            _dataset_store().update(request.dataset_id, status="failed", analysis_status="failed", error_message=str(exc))
         raise HTTPException(status_code=500, detail=f"Pipeline failure: {exc}") from exc
 
-    cache = _analysis_cache()
-    cache["latest"] = result
+    snapshot = {
+        "dataset_statistics": result.dataset_statistics, "ingestion_statistics": result.ingestion_statistics,
+        "graph_statistics": result.graph_statistics, "graph_available": result.graph_available,
+        "wallet_risk_scores": result.risk_scores[["wallet_id", "risk_score", "risk_level"]].to_dict(orient="records"),
+        "wallet_features": result.wallet_features.to_dict(orient="records"), "cluster_results": result.cluster_results.to_dict(orient="records"),
+        "anomaly_results": result.anomaly_results.to_dict(orient="records"), "explanations": result.explanations.to_dict(orient="records"),
+        "evidence": result.evidence, "records": result.records,
+    }
+    store.save_snapshot(dataset_id, snapshot)
+    store.update(dataset_id, status="ready", analysis_status="completed", record_count=len(result.records), error_message=None)
 
-    return {
+    return {"dataset_id": dataset_id,
         "dataset_statistics": result.dataset_statistics,
         "ingestion_statistics": result.ingestion_statistics,
         "validation_statistics": result.validation_statistics,
@@ -103,157 +246,72 @@ def analyze(request: AnalyzeRequest) -> dict[str, Any]:
 
 
 @app.get("/stats")
-def stats() -> dict[str, Any]:
-    """Return the statistics for the default synthetic dataset."""
-    records = load_dataset(_DEFAULT_ANALYSIS_PATH)
-    return {
-        "total_transactions": len(records),
-        "unique_wallets": len({wallet for record in records for wallet in record["input_addresses"] + record["output_addresses"]}),
-        "unique_ips": len({record["src_ip"] for record in records} | {record["dst_ip"] for record in records}),
-        "behavior_types": sorted({record["behavior_type"] for record in records}),
-    }
+def stats(dataset_id: str = Query(...)) -> dict[str, Any]:
+    """Return statistics only for an analysed uploaded dataset."""
+    return _dataset_snapshot(dataset_id)["dataset_statistics"]
 
 
 @app.get("/alerts")
-def alerts() -> list[dict[str, Any]]:
-    """Return the top wallet alerts from the latest pipeline run."""
-    latest = _analysis_cache().get("latest")
-    if latest is None:
-        result = AnalysisOrchestrator().run(_DEFAULT_ANALYSIS_PATH)
-        _analysis_cache()["latest"] = result
-        latest = result
-
-    alerts_list = []
-    for _, row in latest.risk_scores.sort_values("risk_score", ascending=False).head(20).iterrows():
-        alerts_list.append({
-            "wallet_id": str(row["wallet_id"]),
-            "risk_score": float(row["risk_score"]),
-            "risk_level": str(row["risk_level"]),
-            "cluster_id": int(latest.cluster_results.loc[latest.cluster_results["wallet_id"] == row["wallet_id"], "cluster_id"].iloc[0]) if not latest.cluster_results.empty else None,
-            "confidence": round(float(max(0.5, min(0.99, row["risk_score"] / 100))), 3),
-            "top_reasons": ["High anomaly score", "Elevated transaction footprint", "Unusual graph connectivity"],
-        })
-    return alerts_list
+def alerts(dataset_id: str = Query(...)) -> list[dict[str, Any]]:
+    """Return alerts only for an analysed uploaded dataset."""
+    return _alerts_from_snapshot(_dataset_snapshot(dataset_id))
 
 
 @app.get("/alerts/{wallet_id}")
-def alert_for_wallet(wallet_id: str) -> dict[str, Any]:
-    """Return a single alert for a wallet if it exists in the latest analysis snapshot."""
-    latest = _analysis_cache().get("latest")
-    if latest is None:
-        latest = AnalysisOrchestrator().run(_DEFAULT_ANALYSIS_PATH)
-        _analysis_cache()["latest"] = latest
-
-    row = latest.risk_scores[latest.risk_scores["wallet_id"] == wallet_id]
-    if row.empty:
-        raise HTTPException(status_code=404, detail=f"Wallet not found in latest analysis: {wallet_id}")
-
-    cluster_row = latest.cluster_results[latest.cluster_results["wallet_id"] == wallet_id]
-    cluster_id = int(cluster_row["cluster_id"].iloc[0]) if not cluster_row.empty else None
-    reasons = [
-        "Elevated anomaly score",
-        "Unusual transaction diversity",
-        "High network connectivity"
-    ]
-    return {
-        "wallet_id": wallet_id,
-        "risk_score": float(row["risk_score"].iloc[0]),
-        "risk_level": str(row["risk_level"].iloc[0]),
-        "confidence": 0.9,
-        "cluster_id": cluster_id,
-        "top_reasons": reasons,
-    }
+def alert_for_wallet(wallet_id: str, dataset_id: str = Query(...)) -> dict[str, Any]:
+    """Return one alert from the requested uploaded dataset."""
+    alert = next((item for item in _alerts_from_snapshot(_dataset_snapshot(dataset_id)) if item["wallet_id"] == wallet_id), None)
+    if alert is None:
+        raise HTTPException(status_code=404, detail=f"Wallet not found in dataset: {wallet_id}")
+    return alert
 
 
 @app.get("/entities/{wallet_id}")
-def entity(wallet_id: str) -> dict[str, Any]:
-    """Return a wallet summary dataset-health view for the given entity."""
-    latest = _analysis_cache().get("latest")
-    if latest is None:
-        latest = AnalysisOrchestrator().run(_DEFAULT_ANALYSIS_PATH)
-        _analysis_cache()["latest"] = latest
-
-    wallet_features = latest.wallet_features[latest.wallet_features["wallet_id"] == wallet_id]
-    if wallet_features.empty:
-        raise HTTPException(status_code=404, detail=f"Wallet not found: {wallet_id}")
-
-    row = wallet_features.iloc[0]
-    risk_row = latest.risk_scores[latest.risk_scores["wallet_id"] == wallet_id]
-    cluster_row = latest.cluster_results[latest.cluster_results["wallet_id"] == wallet_id]
-    anomaly_row = latest.anomaly_results[latest.anomaly_results["wallet_id"] == wallet_id]
-
-    related_ips = []
-    for record in latest.records:
-        wallets = set(str(item) for item in record.get("input_addresses", [])) | set(str(item) for item in record.get("output_addresses", []))
-        if wallet_id in wallets:
-            related_ips.extend([str(record.get("src_ip", "")), str(record.get("dst_ip", ""))])
-    return {
-        "wallet_id": wallet_id,
-        "risk_score": float(risk_row["risk_score"].iloc[0]) if not risk_row.empty else 0.0,
-        "risk_level": str(risk_row["risk_level"].iloc[0]) if not risk_row.empty else "LOW",
-        "transaction_statistics": {
-            "transaction_count": int(row["transaction_count"]),
-            "incoming_transaction_count": int(row["incoming_transaction_count"]),
-            "outgoing_transaction_count": int(row["outgoing_transaction_count"]),
-        },
-        "network_statistics": {
-            "unique_ips": int(row["unique_ips"]),
-            "unique_counterparties": int(row["unique_counterparties"]),
-            "graph_degree": int(row["graph_degree"]),
-        },
-        "ml_information": {
-            "anomaly_score": float(anomaly_row["anomaly_score"].iloc[0]) if not anomaly_row.empty else 0.0,
-            "anomaly_label": int(anomaly_row["anomaly_label"].iloc[0]) if not anomaly_row.empty else 0,
-        },
-        "cluster_information": {"cluster_id": int(cluster_row["cluster_id"].iloc[0]) if not cluster_row.empty else None},
-        "explanations": latest.explanations[latest.explanations["wallet_id"] == wallet_id].to_dict(orient="records"),
-        "evidence": latest.evidence.get(wallet_id, {}),
-        "related_entities": sorted(set(related_ips)),
-    }
+def entity(wallet_id: str, dataset_id: str = Query(...)) -> dict[str, Any]:
+    """Return a wallet summary from the requested uploaded dataset."""
+    return _snapshot_entity(_dataset_snapshot(dataset_id), wallet_id)
 
 
 @app.get("/entities/{wallet_id}/evidence")
-def entity_evidence(wallet_id: str) -> dict[str, Any]:
-    """Return the evidence summary for a wallet."""
-    latest = _analysis_cache().get("latest")
-    if latest is None:
-        latest = AnalysisOrchestrator().run(_DEFAULT_ANALYSIS_PATH)
-        _analysis_cache()["latest"] = latest
-
-    if wallet_id not in latest.evidence:
+def entity_evidence(wallet_id: str, dataset_id: str = Query(...)) -> dict[str, Any]:
+    """Return evidence from the requested uploaded dataset."""
+    evidence = _dataset_snapshot(dataset_id).get("evidence", {})
+    if wallet_id not in evidence:
         raise HTTPException(status_code=404, detail=f"Evidence not found for wallet: {wallet_id}")
-    return latest.evidence[wallet_id]
+    return evidence[wallet_id]
 
 
 @app.get("/entities/{wallet_id}/graph")
-def entity_graph(wallet_id: str) -> dict[str, Any]:
-    """Return a graph payload for a wallet built from the synthetic transaction graph."""
-    latest = _analysis_cache().get("latest")
-    if latest is None:
-        latest = AnalysisOrchestrator().run(_DEFAULT_ANALYSIS_PATH)
-        _analysis_cache()["latest"] = latest
-
-    if wallet_id not in {str(item["wallet_id"]) for item in latest.risk_scores[["wallet_id"]].to_dict(orient="records")}:
+def entity_graph(
+    wallet_id: str,
+    dataset_id: str = Query(...),
+    depth: int = Query(default=2, ge=1, le=3),
+    max_nodes: int = Query(default=150, ge=1, le=500),
+    max_edges: int = Query(default=300, ge=1, le=1000),
+) -> dict[str, Any]:
+    """Return a bounded Neo4j neighborhood for a wallet in one dataset."""
+    snapshot = _dataset_snapshot(dataset_id)
+    if _snapshot_wallet_row(snapshot, "wallet_features", wallet_id) is None:
         raise HTTPException(status_code=404, detail=f"Wallet not found: {wallet_id}")
 
-    nodes = []
-    edges = []
-    for item in latest.graph_records:
-        if item.get("id") == wallet_id or item.get("type") == "Transaction":
-            nodes.append({"id": str(item.get("id", "")), "type": str(item.get("type", "")), "relationship": str(item.get("relationship", ""))})
-    return {"wallet_id": wallet_id, "nodes": nodes, "edges": edges}
+    client = Neo4jClient()
+    try:
+        client.connect()
+        graph = client.get_neighborhood(dataset_id, wallet_id, depth=depth, max_nodes=max_nodes, max_edges=max_edges)
+    except Neo4jUnavailableError:
+        return {"wallet_id": wallet_id, "graph_available": False, "nodes": [], "edges": [], "depth": depth}
+    finally:
+        client.close()
+
+    return {"wallet_id": wallet_id, **graph}
 
 
 @app.get("/entities/{wallet_id}/transactions")
-def entity_transactions(wallet_id: str) -> list[dict[str, Any]]:
-    """Return all synthetic records associated with a wallet."""
-    latest = _analysis_cache().get("latest")
-    if latest is None:
-        latest = AnalysisOrchestrator().run(_DEFAULT_ANALYSIS_PATH)
-        _analysis_cache()["latest"] = latest
-
+def entity_transactions(wallet_id: str, dataset_id: str = Query(...)) -> list[dict[str, Any]]:
+    """Return records associated with a wallet in one uploaded dataset."""
+    snapshot = _dataset_snapshot(dataset_id)
     result = []
-    for record in latest.records:
+    for record in snapshot.get("records", []):
         wallet_set = {str(item) for item in record.get("input_addresses", [])} | {str(item) for item in record.get("output_addresses", [])}
         if wallet_id in wallet_set:
             result.append({
@@ -269,14 +327,28 @@ def entity_transactions(wallet_id: str) -> list[dict[str, Any]]:
 
 
 @app.get("/clusters")
-def clusters() -> list[dict[str, Any]]:
-    """Return the latest cluster assignment summary."""
-    latest = _analysis_cache().get("latest")
-    if latest is None:
-        latest = AnalysisOrchestrator().run(_DEFAULT_ANALYSIS_PATH)
-        _analysis_cache()["latest"] = latest
+def clusters(dataset_id: str = Query(...)) -> list[dict[str, Any]]:
+    """Return cluster assignments for one uploaded dataset."""
+    return _dataset_snapshot(dataset_id).get("cluster_results", [])
 
-    return latest.cluster_results.to_dict(orient="records")
+
+@app.get("/datasets/{dataset_id}/clusters/{cluster_id}/graph")
+def cluster_graph(dataset_id: str, cluster_id: int) -> dict[str, Any]:
+    """Fetch only the selected cluster's Neo4j neighborhood for Cytoscape."""
+    snapshot = _dataset_snapshot(dataset_id)
+    wallets = [str(row["wallet_id"]) for row in snapshot.get("cluster_results", []) if int(row.get("cluster_id", -999999)) == cluster_id]
+    if not wallets:
+        raise HTTPException(status_code=404, detail=f"Cluster {cluster_id} not found in dataset {dataset_id}")
+    client = Neo4jClient()
+    try:
+        client.connect()
+        graph = client.get_cluster_graph(dataset_id, wallets, max_nodes=200, max_edges=500)
+    except Neo4jUnavailableError:
+        graph = {"graph_available": False, "nodes": [], "edges": []}
+    finally:
+        client.close()
+    return {"dataset_id": dataset_id, "cluster_id": cluster_id, "max_nodes": 200, "max_edges": 500,
+            "limited": len(graph["nodes"]) >= 200 or len(graph["edges"]) >= 500, **graph}
 
 
 if __name__ == "__main__":
