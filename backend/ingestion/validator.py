@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from collections import Counter
-from ipaddress import IPv4Address
+from ipaddress import ip_address
 from typing import Any
 
 REQUIRED_FIELDS = (
@@ -18,11 +18,11 @@ REQUIRED_FIELDS = (
     "input_amounts",
     "output_amounts",
     "fee",
-    "script_type",
-    "geo_country",
-    "asn",
-    "behavior_type",
 )
+
+# Optional fields: geo_country/asn come from offline enrichment, script_type is
+# informational, and behavior_type is a synthetic evaluation label only.
+OPTIONAL_FIELDS = ("script_type", "geo_country", "asn", "behavior_type")
 
 SUPPORTED_BEHAVIORS = {
     "NORMAL",
@@ -31,6 +31,8 @@ SUPPORTED_BEHAVIORS = {
     "LAYERING_LIKE",
     "MIXING_LIKE",
     "HIGH_NETWORK_DIVERSITY",
+    "PEELING_CHAIN",
+    "RANSOMWARE",
 }
 
 
@@ -42,14 +44,15 @@ def validate_record(record: dict[str, Any]) -> list[str]:
         if field not in record or record[field] in (None, ""):
             errors.append(f"Missing required field: {field}")
 
-    if record.get("behavior_type") not in SUPPORTED_BEHAVIORS:
+    behavior = record.get("behavior_type")
+    if behavior not in (None, "") and behavior not in SUPPORTED_BEHAVIORS:
         errors.append("Unsupported behavior_type")
 
     for ip_key in ("src_ip", "dst_ip"):
         try:
-            IPv4Address(str(record.get(ip_key, "")))
+            ip_address(str(record.get(ip_key, "")))
         except ValueError:
-            errors.append(f"Invalid IPv4 address in {ip_key}")
+            errors.append(f"Invalid IP address in {ip_key}")
 
     for port_key in ("src_port", "dst_port"):
         port_value = record.get(port_key)
